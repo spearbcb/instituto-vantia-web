@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Vantia | Formación técnica en tecnología</title>
+  <meta name="description" content="Instituto Vantia — programas técnicos en diseño, programación y redes. Aprende con proyectos reales y docentes de industria.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================
+       PARTICIPANTE 1 — Header y menú de navegación
+       Rama sugerida: feature/header-navegacion
+       ========================================================== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#inicio" class="logo">
+        <span class="logo-mark" aria-hidden="true">V</span>
+        <span class="logo-text">Instituto <strong>Vantia</strong></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menú de navegación">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="navMenu" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Programas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <a href="#contacto" class="btn btn-primary nav-cta">Solicita información</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================================
+       PARTICIPANTE 2 — Sección principal <main>
+       Rama sugerida: feature/main-hero
+       ========================================================== -->
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-inner">
+        <p class="hero-kicker">Convocatoria 2026 abierta</p>
+        <h1>Aprende haciendo. <br>Sal preparado para el primer día de trabajo.</h1>
+        <p class="hero-lead">
+          En Vantia combinamos aulas con proyectos reales de empresas aliadas, para que
+          cada egresado tenga un portafolio, no solo un certificado.
+        </p>
+        <div class="hero-actions">
+          <a href="#servicios" class="btn btn-primary">Ver programas</a>
+          <a href="#nosotros" class="btn btn-ghost">Conocer el instituto</a>
+        </div>
+        <dl class="hero-stats">
+          <div><dt>18</dt><dd>años formando técnicos</dd></div>
+          <div><dt>92%</dt><dd>de egresados empleados al año</dd></div>
+          <div><dt>40+</dt><dd>empresas aliadas</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="about" id="nosotros">
+      <div class="about-inner">
+        <h2>Un instituto pensado desde el taller, no desde el aula</h2>
+        <p>
+          Nacimos en 2008 con una idea simple: la mejor forma de aprender tecnología es
+          construyendo cosas reales, con la guía de personas que trabajan en la industria.
+          Hoy nuestros estudiantes egresan con un portafolio de proyectos, no solo con notas.
+        </p>
+        <div class="about-grid">
+          <article class="about-card">
+            <h3>Docentes en ejercicio</h3>
+            <p>Cada docente trabaja activamente en su área; las clases se actualizan con lo que pasa en la industria hoy.</p>
+          </article>
+          <article class="about-card">
+            <h3>Proyectos con empresas</h3>
+            <p>Los talleres finales resuelven necesidades reales de empresas aliadas, no ejercicios ficticios.</p>
+          </article>
+          <article class="about-card">
+            <h3>Bolsa de trabajo propia</h3>
+            <p>Un área dedicada conecta a los egresados con oportunidades desde el último ciclo de estudios.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         PARTICIPANTE 3 — Sección de servicios con <section> y <article>
+         Rama sugerida: feature/servicios-programas
+         ========================================================== -->
+    <section class="services" id="servicios">
+      <div class="services-inner">
+        <h2>Programas técnicos</h2>
+        <p class="section-lead">Tres rutas de formación, todas con talleres prácticos desde el primer ciclo.</p>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">◧</div>
+            <h3>Diseño y Programación Web</h3>
+            <p>HTML5, CSS moderno, JavaScript y control de versiones con Git, aplicados a proyectos web reales de principio a fin.</p>
+            <ul class="service-tags">
+              <li>Frontend</li>
+              <li>Git &amp; GitHub</li>
+              <li>UI/UX</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">◨</div>
+            <h3>Desarrollo de Software</h3>
+            <p>Bases de datos, backend y arquitectura de aplicaciones, con énfasis en buenas prácticas de ingeniería.</p>
+            <ul class="service-tags">
+              <li>Backend</li>
+              <li>SQL</li>
+              <li>APIs</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">◩</div>
+            <h3>Redes y Ciberseguridad</h3>
+            <p>Administración de redes, infraestructura en la nube y fundamentos de seguridad informática desde el segundo ciclo.</p>
+            <ul class="service-tags">
+              <li>Redes</li>
+              <li>Cloud</li>
+              <li>Seguridad</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         PARTICIPANTE 4 — Sección de contacto y footer
+         Rama sugerida: feature/contacto-footer
+         ========================================================== -->
+    <section class="contact" id="contacto">
+      <div class="contact-inner">
+        <div class="contact-copy">
+          <h2>Conversemos sobre tu próximo ciclo</h2>
+          <p>Escríbenos y un asesor académico te contacta en menos de 24 horas hábiles.</p>
+          <ul class="contact-details">
+            <li><strong>Dirección:</strong> Av. Los Robles 452, Lima, Perú</li>
+            <li><strong>Teléfono:</strong> (01) 555 0134</li>
+            <li><strong>Correo:</strong> admision@vantia.edu.pe</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="form-row">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+          </div>
+          <div class="form-row">
+            <label for="programa">Programa de interés</label>
+            <select id="programa" name="programa">
+              <option>Diseño y Programación Web</option>
+              <option>Desarrollo de Software</option>
+              <option>Redes y Ciberseguridad</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark" aria-hidden="true">V</span>
+        <span>Instituto Vantia</span>
+      </div>
+      <nav class="footer-nav" aria-label="Enlaces del pie de página">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Programas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <p class="footer-copy">© 2026 Instituto Vantia. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
